@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="image">
+    <file>img/111.png</file>
+  </qresource>
+  <qresource prefix="pydir"/>
+</RCC>
