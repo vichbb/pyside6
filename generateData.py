@@ -5,7 +5,7 @@ from faker import Faker
 fake = Faker(locale='zh_CN')
 
 
-data = pd.DataFrame([{'name': fake.name(), 'address': fake.address(), 'email': fake.ascii_free_email()} for _ in range(80)])
+data = pd.DataFrame([{'name': fake.name(), 'address': fake.address(), 'email': fake.ascii_free_email()} for _ in range(50000)])
 
 connect = sqlite3.connect("test.db")
 
